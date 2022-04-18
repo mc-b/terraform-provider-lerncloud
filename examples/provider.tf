@@ -1,8 +1,12 @@
 terraform {
   required_providers {
-    example = {
-      version = "~> 0.0.1"
-      source  = "registry.terraform.io/mc-b/lerncloud"
+    lerncloud = {
+      source = "mc-b/lerncloud"
+      version = "0.0.1"
     }
   }
+}
+
+provider "lerncloud" {
+  # Configuration options
 }
