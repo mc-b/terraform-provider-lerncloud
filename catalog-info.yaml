@@ -1,0 +1,24 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: terraform-provider-lerncloud
+  namespace: mc-b
+  description: Terraform Provider for MAAS (Platzhalter für Module)
+  tags:
+  - infrastructure-as-code
+  - cloud-native
+  - terraform
+  - opentofu
+  - lerncloud
+  links:
+  - url: https://github.com/mc-b/terraform-provider-lerncloud
+    title: Repository
+    icon: github
+  annotations:
+    github.com/project-slug: mc-b/terraform-provider-lerncloud
+    backstage.io/source-location: url:https://github.com/mc-b/terraform-provider-lerncloud
+    # backstage.io/techdocs-ref: url:https://github.com/mc-b/terraform-provider-lerncloud
+spec:
+  type: infrastructure
+  lifecycle: production
+  owner: group:mc-b/mc-b
