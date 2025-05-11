@@ -19,6 +19,6 @@ metadata:
     backstage.io/source-location: url:https://github.com/mc-b/terraform-provider-lerncloud
     # backstage.io/techdocs-ref: url:https://github.com/mc-b/terraform-provider-lerncloud
 spec:
-  type: infrastructure
+  type: library
   lifecycle: production
   owner: group:mc-b/mc-b
